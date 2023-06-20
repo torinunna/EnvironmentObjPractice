@@ -16,7 +16,7 @@ struct FirstView: View {
                 Text("Current Age: \(userProfile.age)")
                 
                 NavigationLink {
-                    
+                    SecondView()
                 } label: {
                     Text("Second View")
                 }
