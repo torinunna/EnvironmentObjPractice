@@ -11,7 +11,7 @@ import SwiftUI
 struct EnvironmentObjPracticeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FirstView()
         }
     }
 }
