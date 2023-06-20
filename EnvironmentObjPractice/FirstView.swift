@@ -10,9 +10,22 @@ import SwiftUI
 struct FirstView: View {
     var body: some View {
         NavigationView {
-            VStack {
+            VStack(spacing: 30) {
                 Text("Current Age: 0")
+                
+                NavigationLink {
+                    
+                } label: {
+                    Text("Second View")
+                }
+                
+                Button {
+                    print("Button Pressed")
+                } label: {
+                    Text("Having Birthday Party!")
+                }
             }
+            .navigationTitle("First View")
         }
     }
 }
