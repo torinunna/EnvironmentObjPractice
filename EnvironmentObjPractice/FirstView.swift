@@ -8,10 +8,12 @@
 import SwiftUI
 
 struct FirstView: View {
+    @EnvironmentObject var userProfile: UserProfileSettings
+    
     var body: some View {
         NavigationView {
             VStack(spacing: 30) {
-                Text("Current Age: 0")
+                Text("Current Age: \(userProfile.age)")
                 
                 NavigationLink {
                     
@@ -32,6 +34,6 @@ struct FirstView: View {
 
 struct FirstView_Previews: PreviewProvider {
     static var previews: some View {
-        FirstView()
+        FirstView().environmentObject(UserProfileSettings())
     }
 }
