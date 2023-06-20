@@ -22,7 +22,7 @@ struct FirstView: View {
                 }
                 
                 Button {
-                    userProfile.haveBirthdayparty()
+                    userProfile.haveBirthdayParty()
                 } label: {
                     Text("Having Birthday Party!")
                 }

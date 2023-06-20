@@ -11,7 +11,7 @@ final class UserProfileSettings: ObservableObject {
     @Published var name: String = ""
     @Published var age: Int = 0
     
-    func haveBirthdayparty() {
+    func haveBirthdayParty() {
         age += 1
     }
 }
