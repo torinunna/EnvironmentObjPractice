@@ -13,6 +13,7 @@
 		863F5A6D2A4179B000CD6E12 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863F5A6C2A4179B000CD6E12 /* FirstView.swift */; };
 		863F5A6F2A417EC300CD6E12 /* UserProfileSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863F5A6E2A417EC300CD6E12 /* UserProfileSettings.swift */; };
 		863F5A772A41F1FF00CD6E12 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863F5A762A41F1FF00CD6E12 /* SecondView.swift */; };
+		863F5A792A41FF2000CD6E12 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863F5A782A41FF2000CD6E12 /* ThirdView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		863F5A6C2A4179B000CD6E12 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
 		863F5A6E2A417EC300CD6E12 /* UserProfileSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileSettings.swift; sourceTree = "<group>"; };
 		863F5A762A41F1FF00CD6E12 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		863F5A782A41FF2000CD6E12 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				863F5A5E2A40540E00CD6E12 /* EnvironmentObjPracticeApp.swift */,
 				863F5A6C2A4179B000CD6E12 /* FirstView.swift */,
 				863F5A762A41F1FF00CD6E12 /* SecondView.swift */,
+				863F5A782A41FF2000CD6E12 /* ThirdView.swift */,
 				863F5A6E2A417EC300CD6E12 /* UserProfileSettings.swift */,
 				863F5A622A40540F00CD6E12 /* Assets.xcassets */,
 				863F5A642A40540F00CD6E12 /* Preview Content */,
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				863F5A5F2A40540E00CD6E12 /* EnvironmentObjPracticeApp.swift in Sources */,
+				863F5A792A41FF2000CD6E12 /* ThirdView.swift in Sources */,
 				863F5A6F2A417EC300CD6E12 /* UserProfileSettings.swift in Sources */,
 				863F5A772A41F1FF00CD6E12 /* SecondView.swift in Sources */,
 				863F5A6D2A4179B000CD6E12 /* FirstView.swift in Sources */,
